@@ -8,7 +8,7 @@ const Header = () => {
 
     const [input, setInput] = useState()
 
-    let dispatch = useDispatch()
+    const dispatch = useDispatch()
 
     return (
         <div className="header">

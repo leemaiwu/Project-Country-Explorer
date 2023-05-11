@@ -8,8 +8,9 @@ import { selectDisplay } from "./redux/slices/displayCountrySlice"
 
 function App() {
 
-    let potentials = useSelector(selectPotentials)
-    let currentDisplay = useSelector(selectDisplay)
+    const potentials = useSelector(selectPotentials)
+
+    const currentDisplay = useSelector(selectDisplay)
 
     return (
         <div className="App font-link">
