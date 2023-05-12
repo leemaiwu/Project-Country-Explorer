@@ -14,8 +14,8 @@ Country Explorer provides a user-friendly interface to explore countries and the
 
 ## API
 Country Explorer utilizes the following APIs:
-Country Inforation: https://restcountries.com/
-Weather Details: https://rapidapi.com/weatherapi/api/weatherapi-com/
+- Country Inforation: https://restcountries.com/
+- Weather Details: https://rapidapi.com/weatherapi/api/weatherapi-com/
 
 ## Author
 Laura Wu
