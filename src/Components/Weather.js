@@ -1,5 +1,4 @@
 import axios from "axios"
-require('dotenv').config(process.env)
 import React, { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
 import { selectDisplay } from "../redux/slices/displayCountrySlice"
@@ -17,8 +16,8 @@ const Weather = () => {
             url: 'https://weatherapi-com.p.rapidapi.com/current.json',
             params: {q: `${latitude}, ${longitude}`},
             headers: {
-                'X-RapidAPI-Key':,
-                'X-RapidAPI-Host':
+                'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+                'X-RapidAPI-Host': process.env.REACT_APP_RAPID_API_HOST
             }
         }
 

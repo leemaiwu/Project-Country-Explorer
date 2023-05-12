@@ -1,22 +1,10 @@
 # Country Explorer
 
-Welcome to Country Explorer where you can search for any country and view their details. The app was built using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Country Explorer, a web application that allows you to search for detailed information about any country. The app was built using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Home and Search
-Create a username and password to start posting.
-![Country Explorer Home](readme_img/home-search.png)
-
-## Overview
-Once logged in, you can create a post and either make it public or private.
-![Country Explorer overview](readme_img/overview.png)
-
-## Weather
-Once a post has been submitted, you can view it in your profile. From here, you can edit the visability or delete the post.
-![Country Explorer weather](readme_img/current-capital-weather.png)
-
-## Symbols
-If you're logged out you can still view all the public posts from the Home page.
-![Country Explorer symbol](readme_img/symbols.png)
+## About
+Country Explorer provides a user-friendly interface to explore countries and their details. The initial screen displays the search results, and upon selecting a country, you will see an overview of its details. Additionally, you can access the 'Current Weather at Capitol' and 'Symbols' tabs to explore further information.
+![Country Explorer symbol](readme_img/country-explorer.png)
 
 ## How to Use the App
 1. Clone or download the project.
@@ -25,8 +13,9 @@ If you're logged out you can still view all the public posts from the Home page.
 4. Open your browser and navigate to `http://localhost:3000` to use the app.
 
 ## API
+Country Explorer utilizes the following APIs:
 Country Inforation: https://restcountries.com/
-Weather API
+Weather Details: https://rapidapi.com/weatherapi/api/weatherapi-com/
 
 ## Author
 Laura Wu
